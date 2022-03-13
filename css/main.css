@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 100%; }
+
+  header .menu {
+    width: 100%;
+    background: #2f2f2f;
+    text-align: center; }
+    header .menu ul {
+      list-style: none; }
+      header .menu ul li {
+        display: inline-block;
+        padding: 20px 35px;
+        transition: all .4s ease; }
+        header .menu ul li a {
+          color: white;
+          text-decoration: none;
+          font-family: 'Oswald', sans-serif;
+          font-size: 20px; }
+        header .menu ul li:hover {
+          transform: scale(1);
+          background: red; }
+  
+  main .menu {
+    width: 100%;
+    background: #2f2f2f;
+    text-align: center; }
+    main .menu ul {
+      list-style: none; }
+      main .menu ul li {
+        display: inline-block;
+        padding: 20px 35px;
+        transition: all .4s ease; }
+        main .menu ul li a {
+          color: white;
+          text-decoration: none;
+          font-family: 'Oswald', sans-serif;
+          font-size: 20px; }
+        main .menu ul li:hover {
+          transform: scale(1);
+          background: red; }
+
+body {
+  background-image: url(../imagenes/fondoIndex.jpg); }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.card-title {
+  color: white; }
+
+.xavlegGif {
+  padding-top: 50px; }
+
+.tituloIndex {
+  color: red;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: calc(0.5em + 1vw); }
+
+.tituloPaginas {
+  color: red;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2em;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.pIndex {
+  color: white;
+  padding: 100px 100px;
+  font-size: 20px; }
+
+.footer {
+  color: red;
+  text-align: center;
+  font-size: 15px; }
+
+.logoGif {
+  text-align: center; }
+
+.separadorIndex {
+  text-align: center;
+  padding-top: 50px; }
+
+.separadoresPaginas {
+  text-align: center;
+  margin-top: 80px; }
+
+.row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap; }
+
+.column {
+  flex: 25%;
+  padding: 5px; }
+
+.column img {
+  margin-top: 5px; }
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%; } }
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%; } }
+
+.imgDisco {
+  width: 100%; }
+
+.pais {
+  color: white;
+  padding-left: 20px;
+  margin: 5px; }
+
+legend {
+  color: white;
+  margin: 5px 10px; }
+
+.botones {
+  padding: 10px 10px; }
+
+.genero {
+  color: white;
+  padding-left: 20px; }
+
+.contraseña {
+  color: white;
+  padding-left: 13px;
+  margin: 5px; }
+
+.nombre {
+  color: white;
+  padding-left: 20px;
+  margin: 5px; }
+
+.mail {
+  color: white;
+  padding-left: 20px;
+  margin: 5px; }
+
+.mainContacto {
+  margin-left: 500px;
+  margin-right: 500px; }
