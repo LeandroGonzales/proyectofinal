@@ -1,0 +1,10 @@
+$estilotitulo: (
+    h1: red,
+    h2: green,
+    h3: blue,
+    h4: yellow,
+    h5: violet,
+    h6: black
+);
+
+$h1: map-get($estilotitulo, h1);
